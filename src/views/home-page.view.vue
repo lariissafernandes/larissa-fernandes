@@ -1,7 +1,7 @@
 <template>
-  <RouterView />
+  <div>Hello World</div>
 </template>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+console.log('algo')
 </script>
