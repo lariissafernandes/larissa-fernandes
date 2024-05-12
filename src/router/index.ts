@@ -1,13 +1,20 @@
+import MainDesktopLayout from '@/layouts/main-desktop.layout.vue'
+import HomePageView from '@/views/home-page.view.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      component: MainDesktopLayout,
+      children: [
+        {
+          path: '',
+          name: 'HomePage',
+          component: HomePageView
+        }
+      ]
     }
   ]
 })
