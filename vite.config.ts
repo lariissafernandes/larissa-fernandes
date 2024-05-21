@@ -18,5 +18,5 @@ export default defineConfig({
       usePolling: true
     }
   },
-  base: '/larissa-fernandes'
+  base: '/larissa-fernandes/'
 })
