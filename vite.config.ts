@@ -17,5 +17,6 @@ export default defineConfig({
     watch: {
       usePolling: true
     }
-  }
+  },
+  base: 'https://lariissafernandes.github.io/larissa-fernandes/'
 })
