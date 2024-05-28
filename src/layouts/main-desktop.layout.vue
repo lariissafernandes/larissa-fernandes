@@ -1,12 +1,14 @@
 <template>
-  <div id="root" class="h-screen">
-    <div id="header-line" class="mb-52">
+  <div id="root" class="flex flex-col h-screen">
+    <div id="header-line" class="mb-48">
       <p id="header-line__text" class="text-center py-1">Dreaming of an escape from reality</p>
     </div>
-    <desktop-menu />
-    <!-- add area principal de conteudo -->
-    <div id="main-container" class="bg-base-200 mx-24"></div>
-    <router-view />
+    <div class="flex flex-row w-3/4 self-center bg-base-200" style="min-height: calc(100% - 384px)">
+      <desktop-menu />
+      <div id="main-container" class="w-full py-8 pl-8 pr-16">
+        <router-view />
+      </div>
+    </div>
   </div>
 </template>
 
