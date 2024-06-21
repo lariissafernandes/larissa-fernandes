@@ -25,22 +25,20 @@
         </p>
       </div>
       <div class="flex flex-col justify-between">
-        <p class="border border-primary p-2 text-center !my-0" id="about-me__text">
-          Larissa <span class="text-secondary">•</span> 25 anos
-          <span class="text-secondary">•</span> Potiguar
-        </p>
-        <div class="divider divider-secondary w-20 self-center" />
+        <div class="divider divider-secondary w-20 self-center !my-0" />
         <div>
-          <p class="text-justify !my-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna ante, pretium ac urna
-            nec, ullamcorper hendrerit tortor. Quisque luctus vulputate justo eu volutpat.
-            Vestibulum lacinia, enim eget eleifend feugiat, sapien nisi porttitor orci, vitae
-            porttitor mi turpis eu elit.
+          <p class="text-center !my-0">
+            Trabalho atualmente com <span class="text__highlight">VueJS</span>, tecnologia usada
+            nesse website bonitinho aqui :D
+          </p>
+          <p class="text-justify !mb-0">
+            Nas horas vagas gosto de jogar joguinhos e papear com meus amigos mais próximos, mesmo
+            sendo uma pessoa introvertida (então às vezes vou estar mais quieta também).
           </p>
         </div>
         <div class="divider divider-secondary w-20 self-center" />
         <img
-          src="@/assets/home-page/about-me_1.jpg"
+          src="@/assets/home-page/about-me_2.jpg"
           class="!m-0 aspect-video w-full object-cover"
         />
       </div>
