@@ -4,29 +4,17 @@
       v-for="(tab, key) in tabs"
       class="px-4 nav-bar__text"
       :key="key"
-      @click="$router.push({ name: tab.route })"
+      @click="$router.push({ name: tab.name })"
     >
-      {{ tab.title }}
+      {{ tab.meta.title }}
       <hr class="nav-bar__bottom-border nav-bar__hover-animation" />
     </button>
   </div>
 </template>
 
 <script setup lang="ts">
-const tabs = [
-  {
-    title: 'Início',
-    route: 'HomePage'
-  },
-  {
-    title: 'Experiência',
-    route: 'Experience'
-  },
-  {
-    title: 'Habilidades',
-    route: 'Skills'
-  }
-]
+import router from '@/router'
+const tabs = router.getRoutes()
 </script>
 
 <style scoped lang="scss">
