@@ -12,7 +12,18 @@ const router = createRouter({
         {
           path: '',
           name: 'HomePage',
-          component: HomePageView
+          component: HomePageView,
+          meta: {
+            title: 'Início'
+          }
+        },
+        {
+          path: 'experiencia',
+          name: 'Experience',
+          component: HomePageView,
+          meta: {
+            title: 'Experiência'
+          }
         }
       ]
     }
