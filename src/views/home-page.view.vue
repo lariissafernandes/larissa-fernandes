@@ -1,8 +1,8 @@
 <template>
   <div class="prose">
-    <h2>Hello World :)</h2>
     <div class="grid grid-cols-2 gap-8">
       <div class="flex flex-col">
+        <h2 class="!mt-0">Hello World :)</h2>
         <img
           src="@/assets/home-page/about-me_1.jpg"
           class="!m-0 aspect-video w-full object-cover"

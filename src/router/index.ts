@@ -13,6 +13,11 @@ const router = createRouter({
           path: '',
           name: 'HomePage',
           component: HomePageView
+        },
+        {
+          path: 'experiencia',
+          name: 'Experience',
+          component: HomePageView
         }
       ]
     }

@@ -1,5 +1,5 @@
 <template>
-  <div id="menu" class="flex flex-col items-center w-96 bg-base-200 p-8 gap-4">
+  <div id="menu" class="flex flex-col items-center w-96 bg-base-200 gap-4">
     <img
       src="@/assets/home-page/music-menu.jpg"
       id="menu__happy-music"
